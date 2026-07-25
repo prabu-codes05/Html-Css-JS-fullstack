@@ -1,9 +1,31 @@
-/*//function 
-//function is a block of code which can be reused multiple time
-function hello(){
+//function 
+//function is a block of code which can be reused multiple time  
+
+   //return = gets a value out of function
+        //parameter = puts a value into a function
+
+       /* function calculateTax(){
+            console.log(1000*0.1)
+        }
+        calculateTax();*/ //normal function and function call code
+
+        function calculateTax(parameter1){
+            console.log(parameter1*0.1)
+        }
+        calculateTax(1000); //use of parameters
+
+        function calculateTax(cost,taxpercent){
+            console.log(cost*taxpercent);
+        }
+        calculateTax(1000,0.2); //use of doubleparameters
+
+
+
+/*function hello()
     console.log("hello world")
 }
 hello()//function call nagare chaldena
+
 
 function sum (a,b){
     console.log("sum is")
