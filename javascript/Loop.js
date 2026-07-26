@@ -114,3 +114,14 @@ for (let i = 5; i <= 0; i--){
 
 //christmas tree
 
+for(let i=0; i<=7 ;i++){
+  let row = " "//eutai row ma print garna
+  for(j=0; j<7-i; j++){
+    row+=" "//agadi ko space manage garna
+  }
+  for (k=0; k < 2*i-1; k++ ){
+    row+="*"//row print garxa
+  }
+  console.log(row)
+}
+

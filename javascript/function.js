@@ -114,4 +114,8 @@ console.log(register())
 - withdarw()
 - deposit()*/
 
+function bank(name,accn_no,balance){
+
+}
+
 
