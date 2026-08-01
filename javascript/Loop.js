@@ -1,6 +1,6 @@
 //loop-revolve around until a condition is meet
  
-//for(intialization; Condition;increment/decrement);
+//for(intialization; Condition; increment/decrement);
 
 // //for loop
 
@@ -13,7 +13,7 @@
 // }
 
 
-// //while loop
+//while loop
 
 // let k=5
 // while (k>= o) {
@@ -22,7 +22,7 @@
 // }
 
 
-// //do while
+// do while
 
 // let l = 5
 // do { 
