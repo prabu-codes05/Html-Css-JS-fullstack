@@ -1,23 +1,23 @@
 //conditional statement
 // conditional Statement
-let bishwo = 400
-if (bishwo > 500){
+let ram = 400
+if (ram > 500){
     console.log("Let's go for the Party...")  // true hunxa 
 }else{
     console.log("Let's stay home...") // false hunxa
 }
 
 
-let bishowgf = 0
-if (bishowgf == 0 ){
-    console.log("bishow is single")
-}else if(bishowgf == 1){
-    console.log("bishow is in relationship and loyal")
+let ramgf = 0
+if (ramgf == 0 ){
+    console.log("ram is single")
+}else if(ramgf == 1){
+    console.log("ram is in relationship and loyal")
 
-}else if(bishowgf == 2){
-    console.log("bishow is Boka")
+}else if(ramgf == 2){
+    console.log("ram is Boka")
 
-}else if(bishowgf == 3){
+}else if(ramgf == 3){
     console.log("Jhonny sins ko bau")
 }else{
     console.log("Invalid Input")
