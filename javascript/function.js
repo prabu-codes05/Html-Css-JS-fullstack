@@ -55,7 +55,7 @@ function college(){
     return "bsc csit"
 }
 
-const inne = () =>{
+const innerFunc = () =>{
     return college()
 }
 
