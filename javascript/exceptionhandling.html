@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Exeception Handling...</h1>
+    <p> It is used for handling the error that may occur during the excecution </p>
+
+    <div class="">
+        <input type="text" name="" id="input">
+        <button onclick="validate()">Validate</button>
+    </div>
+
+    <p id="messi" style="padding:20px; color: black; background-color: yellow;"> ----- </p>
+
+    <script>
+
+        const validate = () => {
+            const input = document.getElementById('input').value
+            const output = document.getElementById('messi')
+            try {
+                if (input.trim() == "") {
+                    throw new Error("Field cannot be Empty")
+                }
+
+                if (isNaN(input)){
+                    throw new Error("String value is not accepted ")
+                }
+
+                if(input % 2 != 0){
+                    throw new Error("Number cannot be an odd number ")
+                }
+
+                output.innerHTML = input
+                output.style.backgroundColor = "green";
+                output.style.color = "white";
+
+            }catch(err) {
+                output.innerHTML = err.message
+                output.style.backgroundColor = "red"
+                output.style.color = "white"
+            }
+
+        }
+    </script>
+</body>
+
+</html>
+   
