@@ -43,7 +43,7 @@
     const sliced = arr.slice(3,6)
     console.log(sliced)
 
-    //splice (it takes 2 argument start & length that it should cut and look for the gap in it)
+    //splice (it takes 2 argument shuru ko ley kun index ko remove garni bhanxa  & 2nd element ley kati ota remove garni tyo bhanxa)
     const spliced = arr.splice(3,4)
     console.log(spliced)
 
