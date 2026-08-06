@@ -51,7 +51,44 @@
                 console.log(err)
             })
 
-           
+
+             const Api = () =>{
+                return new Promise ((res, rej)=>{
+                    let data = true
+                    if (data){
+                        res({
+                            id:1,
+                            name: "prabesh aryal",
+                            class: "6th semester"
+                        })
+                    }else{
+                        rej("Something went wrong")
+                    }
+                })
+            }
+             Api().then((res)=>{
+                cpnsole.log(res)
+             }).catch((err)=>{
+                console.log(err)
+             })
+
+             const actualData=() =>{
+                return new Promise((res, rej)=>{
+                    let url = 'https://dummyjson.com/recipes'
+                    // http handler
+                    fetch(url)
+                    .then(ac => ac.json() )
+                    .then(data => res(data))
+                    .catch(err => rej(err))
+                })
+                
+            }
+
+            actualData()
+            .then(res => console.log(res))
+            .catch(err => console.log(err))
+
+             
 
     </script>
 </body>
