@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    
+    
+        // promises 
+        // asynchronomus OPerations haru handle gerna li use hunxaa 
+        // it helps javascript to operator as multi-thread application
+
+        // resolve, reject, pending 
+        // i will go on date this saturday
+        // janxu = resolve
+        // jana = reject
+        // voli janxu = pending
+
+
+        const decision = new Promise((res, rej) =>{
+            res("I will go on a Date...")
+            // rej("i have a bf")
+        })
+        decision.then(()=>{
+            console.log("Yes...")
+        })
+        .catch((err)=>{
+            console.log("Fuick this shit...")
+        })
+
+        const sala = () =>{
+            return new Promise ((res,rej)=>{
+                let data = false 
+                if (data){
+                    res("wow....")
+                }else{
+                    rej("Nooo...")
+                }
+                })
+            }
+
+            sala().then((res)=>{
+                console.log(res)
+            })
+            .catch((err)=>{
+                console.log(err)
+            })
+
+           
+
+    </script>
+</body>
+
+</html>
