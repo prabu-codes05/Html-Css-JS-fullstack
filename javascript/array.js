@@ -56,8 +56,10 @@
 
     const arry =[12,3,4,5,6,11,24,4,55]
     console.log(arry.sort((a,b)=>{return b-a}));
+    //if positive value comes then b comes ahead
+    //if negative value comes then a comes before b
 
-    const arry1 = [12,,3,4,5,6,11,23,4,22]
+    const arry1 = [12,3,4,5,6,11,23,4,22]
     console.log(arry1.reverse());
 
     //=================Array iteration Method===========================//
