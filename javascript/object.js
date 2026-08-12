@@ -90,13 +90,7 @@ class Car{
     details(){
     return `Car name is ${this.bishow} has ${this.boka} engine and price is Rs. ${this.prices}`
 }
-
-
-
-
-
 }
-
 const car1 = new Car("mustang", "V8", 2000000)
 console.log(car1.name)
 console.log(car1.bishwo)
