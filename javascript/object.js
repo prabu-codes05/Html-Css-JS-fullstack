@@ -53,7 +53,7 @@ console.log(Bishow)
 
 // ================================= OOPs =============================
 // to write the modular , scalable , and maintainable code oops is importrant
-// Oops uses class this ,encapsulation , polymorphism , and inheritance concept to write code  
+// Oops uses class ,this ,encapsulation , polymorphism , and inheritance concept to write code  
 
 // class - it is a blueprint of an object 
 // - it is a template to crate an object 
@@ -69,7 +69,7 @@ const place = {
 class Place{ //class ko name always capital
     name="hayat"
     price= 2000000
-    loaction="butwal" 
+    location="butwal" 
 }
 
 const place1 = new Place()

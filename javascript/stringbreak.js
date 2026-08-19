@@ -44,3 +44,4 @@ console.log("the smallest number is:",smallest);
 const gimu = str.split("").reduce((accum, letter) => letter + accum, "");
 
 console.log(gimu); */
+
