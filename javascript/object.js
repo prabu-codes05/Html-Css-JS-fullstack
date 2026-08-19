@@ -1,4 +1,10 @@
 //==================== Object =================================
+
+/*Think of an object in JavaScript as a real-world entity—like a car, a smartphone, or a person.
+In the real world, a car has:
+Characteristics (Color, Model, Brand) -> In JS, these are called Properties.
+Actions it can perform (Drive, Brake, Honk) --> In JS, these are called Methods (functions inside an object).*/
+
 const pen = {
     name: "cello",
     color: "blue",
@@ -81,7 +87,7 @@ console.log(place1.loaction)
 class Car{
     name= "lamborgini" // class instance
     constructor( name, engine , price){
-        this.bishwo = name 
+        this.bishow = name 
         this.boka = engine
         this.prices = price
     }
