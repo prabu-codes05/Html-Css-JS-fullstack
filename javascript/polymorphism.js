@@ -15,14 +15,14 @@ class Dog extends Animal{
         return "bhau bhau"
     }
 }
-class Cat extends animal{
+class Cat extends Animal{
     sound(){
         return "meow meow"
     }
 }
 
-const prom = [new Animal(), new Dog(), new Bishow()]
-prom.forEach((val)=>{
+const array = [new Animal(), new Dog(), new Cat()]
+array.forEach((val)=>{
     console.log(val.sound())
 })
 
